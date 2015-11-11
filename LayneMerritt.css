@@ -1,0 +1,113 @@
+
+html	{
+	background-color: black;
+	background: url("XeuVUaP.jpg");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+/*	height: 100%;
+	width: 100%;*/
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper	{
+	border: solid 2px black; border-radius: 10px;
+	background-color: rgba(999,999,999,0.7);
+	margin: 10px 10px 10px 10px;
+	max-width: 900px;
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: auto;
+}
+
+img			{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*__________header settings______________*/
+/* default */
+header		{
+	display: flex;
+	border: solid 2px orange; border-radius: 10px;
+	justify-content: space-around;
+}
+/* small screen */
+@media all and (max-width: 650px)	{
+	header		{
+		display: flex;
+		border: dashed 2px orange; border-radius: 10px;
+		flex-direction: column-reverse;
+	}
+}
+
+/*____________nav settings_________________*/
+/* default */
+nav			{
+	display: flex;
+	border: solid 2px black; border-radius: 10px;
+	justify-content: space-around;
+
+}
+
+/* small screen settings for header and nav */
+@media all and (max-width: 940px)	{
+nav			{
+	border: dashed 2px black; border-radius: 10px;
+	flex-direction: column;
+}
+}
+
+h2	{font-size: 400%; }
+h4	{font-size: 275%; margin: auto 10px auto 10px;}
+h6	{font-size: 150%; margin: auto 10px auto 10px;}
+
+.nametag	{
+	border: solid 2px red; border-radius: 10px;
+	height: 200px;
+	color: red;
+}
+
+.slugline	{
+	border: solid 2px yellow; border-radius: 10px;
+}
+
+.logo 		{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.triplet	{
+	border: solid 2px green; border-radius: 10px;
+
+}
+
+article	{
+	border: solid 2px purple; border-radius: 10px;
+}
+
+.footer	{
+	border: solid 2px brown; border-radius: 10px;
+	text-align: left;
+	font-size: 75%;
+}
+
+
+/*
+#page	{
+	background-color: rgba(0,0,0,0.2);
+	width: 90%;
+	max-width: 960px;
+	min-width: 400px;
+	height: 90%;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 5% auto 5% auto;
+
+}
