@@ -13,8 +13,9 @@ html	{
 }
 
 .wrapper	{
-	border: solid 2px black; border-radius: 10px;
-	background-color: rgba(999,999,999,0.7);
+/*	border: solid 2px black; border-radius: 10px;
+*/	background-color: rgba(192,192,192,0.6);
+	border-radius: 20px;
 	margin: 10px 10px 10px 10px;
 	max-width: 900px;
 	text-align: center;
@@ -30,36 +31,45 @@ img			{
 	max-width: 100%;
 }
 
+hr 		{
+	border-color: red;
+	color: red;
+}
+
 /*__________header settings______________*/
 /* default */
 header		{
 	display: flex;
-	border: solid 2px orange; border-radius: 10px;
-	justify-content: space-around;
+/*	border: solid 2px orange; border-radius: 10px;
+*/	justify-content: center;
 }
 /* small screen */
 @media all and (max-width: 650px)	{
 	header		{
 		display: flex;
-		border: dashed 2px orange; border-radius: 10px;
-		flex-direction: column-reverse;
+/*		border: dashed 2px orange; border-radius: 10px;
+*/		flex-direction: column-reverse;
 	}
 }
 
 /*____________nav settings_________________*/
 /* default */
+nav 		{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 nav			{
 	display: flex;
-	border: solid 2px black; border-radius: 10px;
-	justify-content: space-around;
+/*	border: solid 2px black; border-radius: 10px;
+*/	justify-content: space-around;
 
 }
 
 /* small screen settings for header and nav */
 @media all and (max-width: 940px)	{
 nav			{
-	border: dashed 2px black; border-radius: 10px;
-	flex-direction: column;
+/*	border: dashed 2px black; border-radius: 10px;
+*/	flex-direction: column;
 }
 }
 
@@ -68,34 +78,37 @@ h4	{font-size: 275%; margin: auto 10px auto 10px;}
 h6	{font-size: 150%; margin: auto 10px auto 10px;}
 
 .nametag	{
-	border: solid 2px red; border-radius: 10px;
-	height: 200px;
+/*	border: solid 2px red; border-radius: 10px;
+*/	height: 200px;
 	color: red;
 }
 
 .slugline	{
-	border: solid 2px yellow; border-radius: 10px;
-}
+/*	border: solid 2px yellow; border-radius: 10px;
+*/}
 
 .logo 		{
-	max-height: 100%;
-	max-width: 100%;
+height: 200px;
 }
 
 
 .triplet	{
-	border: solid 2px green; border-radius: 10px;
-
+/*	border: solid 2px green; border-radius: 10px;
+*/
 }
 
 article	{
-	border: solid 2px purple; border-radius: 10px;
+/*	border: solid 2px purple; border-radius: 10px;
+*/	margin-left: 10%;
+	margin-right: 10%;	
 }
 
 .footer	{
-	border: solid 2px brown; border-radius: 10px;
-	text-align: left;
+/*	border: solid 2px brown; border-radius: 10px;
+*/	text-align: left;
 	font-size: 75%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 
